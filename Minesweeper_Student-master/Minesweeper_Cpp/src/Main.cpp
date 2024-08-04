@@ -159,6 +159,7 @@ int main( int argc, char *argv[] )
             if (verbose)
                 cout << "Running world: " << ent->d_name << endl;
 
+
             string individualWorldFile = worldFile + "/" + ent->d_name;
 
             int score;
