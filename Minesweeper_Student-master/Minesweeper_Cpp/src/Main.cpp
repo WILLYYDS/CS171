@@ -152,6 +152,7 @@ int main( int argc, char *argv[] )
         int medium = 0;
         int expert = 0;
 
+
         while ((ent = readdir(dir)) != NULL)
         {
             if (ent->d_name[0] == '.')
@@ -160,6 +161,7 @@ int main( int argc, char *argv[] )
                 cout << "Running world: " << ent->d_name << endl;
 
             string individualWorldFile = worldFile + "/" + ent->d_name;
+
 
             int score;
             try {
